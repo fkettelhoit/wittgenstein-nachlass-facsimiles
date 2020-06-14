@@ -1,0 +1,15 @@
+name: wittgenstein_facsimile_downloader
+description: Downloads the facsimiles of Wittgenstein's Nachlass from wittgensteinsource.org
+version: 0.0.1
+homepage: https://github.com/fkettelhoit/wittgenstein-nachlass-facsimiles
+author: Frederic Kettelhoit <kettelhoit@gmail.com>
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  html: ^0.14.0+2
+  pool: ^1.4.0
+
+dev_dependencies:
+  effective_dart: ^1.1.0
